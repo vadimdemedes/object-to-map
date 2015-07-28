@@ -18,6 +18,7 @@
   "homepage": "https://github.com/vdemedes/object-to-map#readme",
   "devDependencies": {
     "chai": "^3.2.0",
+    "istanbul-harmony": "^0.3.16",
     "make-lint": "vdemedes/make-lint",
     "mocha": "^2.2.5"
   },
