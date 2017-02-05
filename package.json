@@ -5,10 +5,13 @@
   "repository": "vadimdemedes/object-to-map",
   "author": "Vadim Demedes <vdemedes@gmail.com>",
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
     "test": "xo && ava"
   },
+  "engines": {
+    "node": ">= 4"
+  },
+  "main": "index.js",
   "files": [
     "index.js"
   ],
