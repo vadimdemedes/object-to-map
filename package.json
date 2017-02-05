@@ -1,6 +1,6 @@
 {
   "name": "object-to-map",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Convert object to ES6 Map",
   "repository": "vadimdemedes/object-to-map",
   "author": "Vadim Demedes <vdemedes@gmail.com>",
