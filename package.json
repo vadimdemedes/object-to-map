@@ -2,30 +2,21 @@
   "name": "object-to-map",
   "version": "1.0.0",
   "description": "Convert object to ES6 Map",
-  "main": "index.js",
-  "scripts": {
-    "test": "make test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vdemedes/object-to-map.git"
-  },
+  "repository": "vadimdemedes/object-to-map",
   "author": "Vadim Demedes <vdemedes@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/vdemedes/object-to-map/issues"
-  },
-  "homepage": "https://github.com/vdemedes/object-to-map#readme",
-  "devDependencies": {
-    "chai": "^3.2.0",
-    "istanbul-harmony": "^0.3.16",
-    "make-lint": "vdemedes/make-lint",
-    "mocha": "^2.2.5"
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
   },
   "files": [
     "index.js"
   ],
   "dependencies": {
-    "object-to-array": "^1.0.0"
+    "object-to-array": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.18.1",
+    "xo": "^0.17.1"
   }
 }
