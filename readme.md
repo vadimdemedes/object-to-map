@@ -16,7 +16,7 @@ $ npm install --save object-to-map
 const objectToMap = require('object-to-map');
 
 const obj = {
-  a: 1,
+	a: 1,
 	b: 2
 };
 
